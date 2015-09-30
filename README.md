@@ -6,27 +6,31 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
+_{In this program, I created 3 data structures to store all information:
+	1. An adjacency table that consists of an array of song genres where each genre points to a linear linked list of songs in that genre and also to an adjacency list (also a LLL) of nodes that point to related genres.
+	2. A hash table (array that points to LLLs) where the key is determined by a calculation run on an artist's name.
+	3. A circular linked list that keeps track of the user's playlist.
+
+The program is object-oriented with 2 has-a relationships and 9 is-a relationships in the hierarchy.
+
+I also used operator overloading for things such as inserting into the circular linked list with the << operator.}_
 
 ## Setup
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _`$ git clone [this_repository]`_
+* _`$ g++ *.cpp`_
+* _`$./a.out` to run program_
 
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _Written in C++_
+* _Troubleshooted with GDB_
+* _Memory leaks checked with valgrind_
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
-
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **_{Josue Valverde}_**
 
 This software is licensed under the MIT license.
 
