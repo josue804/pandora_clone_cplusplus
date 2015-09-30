@@ -1,4 +1,4 @@
-__Pandora Music Station Clone__
+#Pandora Music Station Clone
 
 ##### _Allows the user to like specific songs from a collection to add to their playlist. If they 'like' a song, the program may suggest a related song in a different genre that the user may enjoy., June 6, 2015_
 
@@ -6,14 +6,14 @@ __Pandora Music Station Clone__
 
 ## Description
 
-_In this program, I created 3 data structures to store all information:
+In this program, I created 3 data structures to store all information:
 	1. An adjacency table that consists of an array of song genres where each genre points to a linear linked list of songs in that genre and also to an adjacency list (also a LLL) of nodes that point to related genres.
 	2. A hash table (array that points to LLLs) where the key is determined by a calculation run on an artist's name.
 	3. A circular linked list that keeps track of the user's playlist.
 
 The program is object-oriented with 2 has-a relationships and 9 is-a relationships in the hierarchy.
 
-I also used operator overloading for things such as inserting into the circular linked list with the << operator._
+I also used operator overloading for things such as inserting into the circular linked list with the << operator.
 
 ## Setup
 
