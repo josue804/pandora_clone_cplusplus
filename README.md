@@ -1,6 +1,6 @@
-Pandora Music Station Clone_
+__Pandora Music Station Clone__
 
-##### _Allows the user to like specific songs from a collection to add to their playlist. If they 'like' a song, the program may suggest a related song in a different genre that the user may enjoy., {June 6, 2015}_
+##### _Allows the user to like specific songs from a collection to add to their playlist. If they 'like' a song, the program may suggest a related song in a different genre that the user may enjoy., June 6, 2015_
 
 #### By _**Josue Valverde**_
 
@@ -17,9 +17,9 @@ I also used operator overloading for things such as inserting into the circular 
 
 ## Setup
 
-* _`$ git clone [this_repository]`_
-* _`$ g++ *.cpp`_
-* _`$./a.out` to run program_
+* `$ git clone` this repository
+* `$ g++ *.cpp`
+* `$./a.out` to run program
 
 
 ## Technologies Used
