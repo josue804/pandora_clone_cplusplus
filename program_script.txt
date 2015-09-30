@@ -1,0 +1,735 @@
+Script started on Mon 25 May 2015 11:01:41 PM PDT
+vjosue@ada:~/Documents/CS202/HW3$ !g
+g++ *.cpp
+vjosue@ada:~/Documents/CS202/HW3$ ./a.out
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 1
+
+-----------------------------------------
+|What genre would you like to listen to?|
+|1.Choral                               |
+|2.Classical Piano/Violin               |
+|3.Video Game Music                     |
+|4.Anime Music                          |
+|5.Movie/TV Show Soundtrack             |
+-----------------------------------------
+Please enter your choice: 1
+
+~~Playing~~
+Song: Dies Irae
+Artist: Giuseppe Verdi
+Time: 2:14
+
+----------------------------
+|1.I LIKED this song!      |
+|2.I DISLIKED this song :( |
+----------------------------
+Enter your choice: 1
+
+This song has been added to your playlist!
+------------------------------------
+|You liked the last song we played.|
+|Would you like to branch out?     |
+|1.Yes                             |
+|2.No, go to Main Menu             |
+------------------------------------
+Please enter your choice: 1
+
+~~Playing~~
+Song: Rachmaninoff Piano Concerto No. 3
+Artist: Rachmaninoff
+Time: 42:34
+
+----------------------------
+|1.I LIKED this song!      |
+|2.I DISLIKED this song :( |
+----------------------------
+Enter your choice: 1
+
+This song has been added to your playlist!
+------------------------------------
+|You liked the last song we played.|
+|Would you like to branch out?     |
+|1.Yes                             |
+|2.No, go to Main Menu             |
+------------------------------------
+Please enter your choice: 2
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 1
+
+-----------------------------------------
+|What genre would you like to listen to?|
+|1.Choral                               |
+|2.Classical Piano/Violin               |
+|3.Video Game Music                     |
+|4.Anime Music                          |
+|5.Movie/TV Show Soundtrack             |
+-----------------------------------------
+Please enter your choice: 5
+
+~~Playing~~
+Song: Game of Thrones- Main Title
+Artist: Ramin Djawadi
+Time: 1:46
+
+----------------------------
+|1.I LIKED this song!      |
+|2.I DISLIKED this song :( |
+----------------------------
+Enter your choice: 1
+
+This song has been added to your playlist!
+------------------------------------
+|You liked the last song we played.|
+|Would you like to branch out?     |
+|1.Yes                             |
+|2.No, go to Main Menu             |
+------------------------------------
+Please enter your choice: 1
+
+~~Playing~~
+Song Genre: Video Game Music
+Song: The Witcher 3- Alone in the Marshlands
+Artist: Marcin Przybylowicz
+Time: 1:41
+
+----------------------------
+|1.I LIKED this song!      |
+|2.I DISLIKED this song :( |
+----------------------------
+Enter your choice: 1
+
+This song has been added to your playlist!
+------------------------------------
+|You liked the last song we played.|
+|Would you like to branch out?     |
+|1.Yes                             |
+|2.No, go to Main Menu             |
+------------------------------------
+Please enter your choice: 2
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 2
+
+Here is a list of available artists: 
+->Yoko Shimomura
+->Andre Lloyd Webber
+->Carl Orff
+->Wolfgang Amadeus Mozart
+->Unknown
+->Toshio Masuda
+->Hiroyuki Sawano
+->Camille Saint-Saens
+->Ramin Djawadi
+->Ludwig van Beethoven
+->Frederic Chopin
+->Giuseppe Verdi
+->Rachmaninoff
+->Trevor Morris
+->Queen
+->Marcin Przybylowicz
+->Hikaru Nanase
+Please enter an artist name: Rachm     Ludwig van Beethoven
+
+~~Playing~~
+Song: Piano Sonata No 14 Moonlight Third Movement
+Artist: Ludwig van Beethoven
+Time: 8:10
+
+----------------------------
+|1.I LIKED this song!      |
+|2.I DISLIKED this song :( |
+----------------------------
+Enter your choice: 1
+-->This song has been added to your playlist!
+
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 2 2
+
+Here is a list of available artists: 
+->Yoko Shimomura
+->Andre Lloyd Webber
+->Carl Orff
+->Wolfgang Amadeus Mozart
+->Unknown
+->Toshio Masuda
+->Hiroyuki Sawano
+->Camille Saint-Saens
+->Ramin Djawadi
+->Ludwig van Beethoven
+->Frederic Chopin
+->Giuseppe Verdi
+->Rachmaninoff
+->Trevor Morris
+->Queen
+->Marcin Przybylowicz
+->Hikaru Nanase
+Please enter an artist name: Frederic Cho[ pin
+
+~~Playing~~
+Song: Etude Opus 10 No. 4 in C Sharp Minor
+Artist: Frederic Chopin
+Time: 2:08
+
+----------------------------
+|1.I LIKED this song!      |
+|2.I DISLIKED this song :( |
+----------------------------
+Enter your choice: 1
+-->This song has been added to your playlist!
+
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 3
+
+-----------------------------
+|Playing from your Playlist |
+-----------------------------
+
+~~Playing~~
+Song: Dies Irae
+Artist: Giuseppe Verdi
+Time: 2:14
+
+------------------------------
+|Do you still like this song?|
+|1.Yes                       |
+|2.No                        |
+------------------------------
+Please enter your choice: 2
+
+-->This song has been removed from your Playlist
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 3
+
+-----------------------------
+|Playing from your Playlist |
+-----------------------------
+
+~~Playing~~
+Song: Rachmaninoff Piano Concerto No. 3
+Artist: Rachmaninoff
+Time: 42:34
+
+------------------------------
+|Do you still like this song?|
+|1.Yes                       |
+|2.No                        |
+------------------------------
+Please enter your choice: 2
+
+-->This song has been removed from your Playlist
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 3
+
+-----------------------------
+|Playing from your Playlist |
+-----------------------------
+
+~~Playing~~
+Song: Game of Thrones- Main Title
+Artist: Ramin Djawadi
+Time: 1:46
+
+------------------------------
+|Do you still like this song?|
+|1.Yes                       |
+|2.No                        |
+------------------------------
+Please enter your choice: 2
+
+-->This song has been removed from your Playlist
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 3
+
+-----------------------------
+|Playing from your Playlist |
+-----------------------------
+
+~~Playing~~
+Song: The Witcher 3- Alone in the Marshlands
+Artist: Marcin Przybylowicz
+Time: 1:41
+
+------------------------------
+|Do you still like this song?|
+|1.Yes                       |
+|2.No                        |
+------------------------------
+Please enter your choice: 2
+
+-->This song has been removed from your Playlist
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 3
+
+-----------------------------
+|Playing from your Playlist |
+-----------------------------
+--> Playlist is empty!
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 4
+
+----------------------------------
+|What would you like to test on? |
+|1.Adjacency Table               |
+|2.Hash Table                    |
+|3.CLL Playlist                  |
+---------------------------------|
+Please enter your choice: 1
+
+----------------------------
+|What would you like to do?|
+|1.Display (<<)            |
+|2.Insert (>>)             |
+|3.Search and Remove (-=)  |
+---------------------------|
+Please enter your choice: 2
+
+-----------------------------------------
+|What Genre do you want to insert into? |
+|1.Choral                               |
+|2.Classical Piano/Violin               |
+|3.Video Game Music                     |
+|4.Anime Music                          |
+|5.Movie/TV Show Soundtrack             |
+-----------------------------------------
+Please enter your choice: 1
+
+Enter the Name of the song you wish to add: Lalala
+Enter the Artist of the song you wish to add: Singers
+How long is this song (ex. 1:00): 45:00
+-->Song has been added
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 4
+
+----------------------------------
+|What would you like to test on? |
+|1.Adjacency Table               |
+|2.Hash Table                    |
+|3.CLL Playlist                  |
+---------------------------------|
+Please enter your choice: 1 1
+
+----------------------------
+|What would you like to do?|
+|1.Display (<<)            |
+|2.Insert (>>)             |
+|3.Search and Remove (-=)  |
+---------------------------|
+Please enter your choice: 1
+
+
+
+----------------------------------\
+|Genre: Choral
+|Number of Songs: 4
+----------------------------------/
+Song: Lalala
+Artist: Singers
+Time: 45:00
+
+Song: Korobeiniki
+Artist: Unknown
+Time: 2:42
+
+Song: Miserere
+Artist: Wolfgang Amadeus Mozart
+Time: 5:50
+
+Song: Dies Irae
+Artist: Giuseppe Verdi
+Time: 2:14
+
+Song: O Fortuna
+Artist: Carl Orff
+Time: 5:13
+
+
+
+----------------------------------\
+|Genre: Classical Piano/Violin
+|Number of Songs: 5
+----------------------------------/
+Song: Etude Opus 10 No. 4 in C Sharp Minor
+Artist: Frederic Chopin
+Time: 2:08
+
+Song: Violin Sonata No.9
+Artist: Ludwig van Beethoven
+Time: 12:22
+
+Song: Introduction and Rondo Capriccioso
+Artist: Camille Saint-Saens
+Time: 9:15
+
+Song: Piano Sonata No 14 Moonlight Third Movement
+Artist: Ludwig van Beethoven
+Time: 8:10
+
+Song: Rachmaninoff Piano Concerto No. 3
+Artist: Rachmaninoff
+Time: 42:34
+
+
+
+----------------------------------\
+|Genre: Video Game Music
+|Number of Songs: 3
+----------------------------------/
+Song: Kingdom Hearts- Hikari(Orchestra)
+Artist: Yoko Shimomura
+Time: 6:14
+
+Song: Dragon Age Inquisition- Doom Upon All the World
+Artist: Trevor Morris
+Time: 3:49
+
+Song: The Witcher 3- Alone in the Marshlands
+Artist: Marcin Przybylowicz
+Time: 1:41
+
+
+
+----------------------------------\
+|Genre: Anime Music
+|Number of Songs: 4
+----------------------------------/
+Song: Ao no Exorcist- Third Movement
+Artist: Hiroyuki Sawano
+Time: 4:21
+
+Song: Naruto- Akatsuki
+Artist: Toshio Masuda
+Time: 2:02
+
+Song: Beyond the Boundary- Kyoukai no Kanata No. 24
+Artist: Hikaru Nanase
+Time: 1:38
+
+Song: Beyond the Boundary- Kyoukai no Kanata No. 14
+Artist: Hikaru Nanase
+Time: 1:57
+
+
+
+----------------------------------\
+|Genre: Movies/TV Show Soundtracks
+|Number of Songs: 3
+----------------------------------/
+Song: Game of Thrones- Main Title
+Artist: Ramin Djawadi
+Time: 1:46
+
+Song: The Phantom of the Opera(2004)- Overture
+Artist: Andre Lloyd Webber
+Time: 2:45
+
+Song: Highlander- Who Wants to Live Forever
+Artist: Queen
+Time: 5:20
+
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 4
+
+----------------------------------
+|What would you like to test on? |
+|1.Adjacency Table               |
+|2.Hash Table                    |
+|3.CLL Playlist                  |
+---------------------------------|
+Please enter your choice: 2 1
+
+----------------------------
+|What would you like to do?|
+|1.Display (<<)            |
+|2.Insert (>>)             |
+|3.Search and Remove (-=)  |
+---------------------------|
+Please enter your choice: 3
+
+Enter the title of the song you are looking for: Sin   Lalala
+
+-->Song has been found and removed
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 4
+
+----------------------------------
+|What would you like to test on? |
+|1.Adjacency Table               |
+|2.Hash Table                    |
+|3.CLL Playlist                  |
+---------------------------------|
+Please enter your choice: 1
+
+----------------------------
+|What would you like to do?|
+|1.Display (<<)            |
+|2.Insert (>>)             |
+|3.Search and Remove (-=)  |
+---------------------------|
+Please enter your choice: 3 1
+
+
+
+----------------------------------\
+|Genre: Choral
+|Number of Songs: 4
+----------------------------------/
+Song: Korobeiniki
+Artist: Unknown
+Time: 2:42
+
+Song: Miserere
+Artist: Wolfgang Amadeus Mozart
+Time: 5:50
+
+Song: Dies Irae
+Artist: Giuseppe Verdi
+Time: 2:14
+
+Song: O Fortuna
+Artist: Carl Orff
+Time: 5:13
+
+
+
+----------------------------------\
+|Genre: Classical Piano/Violin
+|Number of Songs: 5
+----------------------------------/
+Song: Etude Opus 10 No. 4 in C Sharp Minor
+Artist: Frederic Chopin
+Time: 2:08
+
+Song: Violin Sonata No.9
+Artist: Ludwig van Beethoven
+Time: 12:22
+
+Song: Introduction and Rondo Capriccioso
+Artist: Camille Saint-Saens
+Time: 9:15
+
+Song: Piano Sonata No 14 Moonlight Third Movement
+Artist: Ludwig van Beethoven
+Time: 8:10
+
+Song: Rachmaninoff Piano Concerto No. 3
+Artist: Rachmaninoff
+Time: 42:34
+
+
+
+----------------------------------\
+|Genre: Video Game Music
+|Number of Songs: 3
+----------------------------------/
+Song: Kingdom Hearts- Hikari(Orchestra)
+Artist: Yoko Shimomura
+Time: 6:14
+
+Song: Dragon Age Inquisition- Doom Upon All the World
+Artist: Trevor Morris
+Time: 3:49
+
+Song: The Witcher 3- Alone in the Marshlands
+Artist: Marcin Przybylowicz
+Time: 1:41
+
+
+
+----------------------------------\
+|Genre: Anime Music
+|Number of Songs: 4
+----------------------------------/
+Song: Ao no Exorcist- Third Movement
+Artist: Hiroyuki Sawano
+Time: 4:21
+
+Song: Naruto- Akatsuki
+Artist: Toshio Masuda
+Time: 2:02
+
+Song: Beyond the Boundary- Kyoukai no Kanata No. 24
+Artist: Hikaru Nanase
+Time: 1:38
+
+Song: Beyond the Boundary- Kyoukai no Kanata No. 14
+Artist: Hikaru Nanase
+Time: 1:57
+
+
+
+----------------------------------\
+|Genre: Movies/TV Show Soundtracks
+|Number of Songs: 3
+----------------------------------/
+Song: Game of Thrones- Main Title
+Artist: Ramin Djawadi
+Time: 1:46
+
+Song: The Phantom of the Opera(2004)- Overture
+Artist: Andre Lloyd Webber
+Time: 2:45
+
+Song: Highlander- Who Wants to Live Forever
+Artist: Queen
+Time: 5:20
+
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 4
+
+----------------------------------
+|What would you like to test on? |
+|1.Adjacency Table               |
+|2.Hash Table                    |
+|3.CLL Playlist                  |
+---------------------------------|
+Please enter your choice: 3
+
+----------------------------
+|What would you like to do?|
+|1.Display (<<)            |
+|2.Insert (>>)             |
+----------------------------
+Please enter your choice: 1 2
+
+Enter the Name of the song you wish to add: I B It's late
+Enter the Artist of the song you wish to add: C Com   Prto  ogammer     rammer
+How long is this song (ex. 1:00): 4 11:04
+-->Song has been added
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 3
+
+-----------------------------
+|Playing from your Playlist |
+-----------------------------
+
+~~Playing~~
+Song: It's late
+Artist: Programmer
+Time: 11:04
+
+------------------------------
+|Do you still like this song?|
+|1.Yes                       |
+|2.No                        |
+------------------------------
+Please enter your choice: 1
+
+--------------Main Menu----------
+|What would you like to do?     |
+|1.Search by Genre              |
+|2.Search by Artist             |
+|3.Play from Playlist           |
+|4.Test Operator Overloading    |
+|5.Quit                         |
+---------------------------------
+Please enter your choice: 5
+
+vjosue@ada:~/Documents/CS202/HW3$ exit
+exit
+
+Script done on Mon 25 May 2015 11:04:41 PM PDT
